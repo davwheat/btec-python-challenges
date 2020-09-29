@@ -1,6 +1,10 @@
 import os
 from random import choice
 
+# Prints the chosen word at the start of the
+# game for testing purposes
+DEBUG_MODE = False
+
 # Fix for VS Code workspaces
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
 
@@ -126,6 +130,10 @@ with open("possible_words.txt", "r") as file:
 
 current_word = choice(guessable_words)
 current_guessed = "?" * len(current_word)
+
+if DEBUG_MODE:
+    print("## DEBUG MODE ACTIVATED ##")
+    print(f"CHOSEN WORD: {current_word}\n\n")
 
 while lives_remaining != 0:
     # No more missing chars? They've solved it!
