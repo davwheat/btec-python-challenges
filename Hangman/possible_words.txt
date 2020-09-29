@@ -3,3 +3,10 @@ dogs
 snakes
 history
 computer
+# this is a comment
+python
+bankruptcy
+boundary
+compatible
+exhausting
+hovercraft
