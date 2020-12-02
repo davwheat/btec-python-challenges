@@ -1,6 +1,10 @@
 # This was a massive program which took about 1 hour to get
 # working (including stupid debugging with file opening in my IDE...)
 
+# I attached this because it's got all the objective 8 learning in it
+# as well as other stuff, and was harder than the 3* challenge
+
+
 class Product:
     def __init__(self, name, price, skuCode):
         self.name = name
