@@ -1,3 +1,6 @@
+# This was a massive program which took about 1 hour to get
+# working (including stupid debugging with file opening in my IDE...)
+
 class Product:
     def __init__(self, name, price, skuCode):
         self.name = name
